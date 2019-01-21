@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Chandra Poerwanto
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Pixel GSI updates</string>
+    <string name="app_title">Pixel GSI updates</string>
+
+    <!-- Categories -->
+    <string name="ota_category">OTA</string>
+    <string name="links_category">Links</string>
+
+    <!-- ROM info -->
+    <string name="latest_version">Update available!\nLatest version: %1$s</string>
+    <string name="unknown">Unknown</string>
+    <string name="system_uptodate">Your system is up to date</string>
+
+    <!-- Check update -->
+    <string name="check_update_title">Check update</string>
+    <string name="last_check_summary">Last check: %1$s</string>
+    <string name="last_check_never">Never</string>
+    <string name="check_update_failed">Can\'t check update</string>
+    <string name="update_available">Update available!</string>
+    <string name="no_update_available">No update available</string>
+
+    <!-- Update interval -->
+    <string name="interval_title">Automatic update interval</string>
+    <string name="interval_entry_disable">Disabled</string>
+    <string name="interval_entry_1h">Every hour</string>
+    <string name="interval_entry_12h">Every 12 hours</string>
+    <string name="interval_entry_24h">Every 24 hours</string>
+    <string name="autoupdate_enabled">Automatic update is enabled</string>
+    <string name="autoupdate_disabled">Automatic update is disabled</string>
+
+    <!-- Notification -->
+    <string name="notification_title">Hey, a new update is here!</string>
+    <string name="notification_message">A new version is available!</string>
+    <string name="pixelgsi_channel">Pixel GSI OTA notifications</string>
+    <string name="pixelgsi_channel_description">Notifications about new Pixel GSI ROM updates</string>
+
+    <!-- Dialog -->
+    <string name="dialog_message">Checking for ROM updates, please wait…</string>
+
+    <!-- Toast -->
+    <string name="toast_message">There\'s no browser installed</string>
+
+    <!-- Links -->
+    <string name="links_rom_title">ROM</string>
+    <string name="links_rom_summary">Download the latest release for your device</string>
+    <string name="links_romirror_title">XDA Thread</string>
+    <string name="links_romirror_summary">Visit The XDA Thread</string>
+    <string name="links_changelog_title">Changelog</string>
+    <string name="links_changelog_summary">Check Out The Latest Changes</string>
+    <string name="links_donation_title">Donation</string>
+    <string name="links_donation_summary">Donate to developer</string>
+</resources>

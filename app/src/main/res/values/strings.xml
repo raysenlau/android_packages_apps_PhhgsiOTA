@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">Pixel GSI updates</string>
-    <string name="app_title">Pixel GSI updates</string>
+    <string name="app_name">PixelExperience updates</string>
+    <string name="app_title">PixelExperience updates</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>
@@ -50,8 +50,8 @@
     <!-- Notification -->
     <string name="notification_title">Hey, a new update is here!</string>
     <string name="notification_message">A new version is available!</string>
-    <string name="pixelgsi_channel">Pixel GSI OTA notifications</string>
-    <string name="pixelgsi_channel_description">Notifications about new Pixel GSI ROM updates</string>
+    <string name="pixelgsi_channel">PixelExperience OTA notifications</string>
+    <string name="pixelgsi_channel_description">Notifications about new PixelExperience ROM updates</string>
 
     <!-- Dialog -->
     <string name="dialog_message">Checking for ROM updates, please wait…</string>

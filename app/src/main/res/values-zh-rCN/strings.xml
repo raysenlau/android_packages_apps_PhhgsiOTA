@@ -19,7 +19,7 @@
 
     <!-- App -->
     <string name="app_name">系统更新</string>
-    <string name="app_title">Pixel GSI 更新</string>
+    <string name="app_title">PixelExperience 更新</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>
@@ -48,9 +48,9 @@
     <string name="autoupdate_disabled">自动更新已禁用</string>
 
     <!-- Notification -->
-    <string name="notification_title">Pixel GSI 更新</string>
+    <string name="notification_title">系统更新</string>
     <string name="notification_message">有新版本可用！</string>
-    <string name="pixelgsi_channel">系统OTA 通知</string>
+    <string name="pixelgsi_channel">系统OTA通知</string>
     <string name="pixelgsi_channel_description">有系统更新时的通知我</string>
 
     <!-- Dialog -->
@@ -61,9 +61,9 @@
 
     <!-- Links -->
     <string name="links_rom_title">ROM</string>
-    <string name="links_rom_summary">下载最新Pixel GSI 更新</string>
+    <string name="links_rom_summary">下载最新系统更新包</string>
     <string name="links_changelog_title">更新日志</string>
-    <string name="links_changelog_summary">下载最新更新日志</string>
+    <string name="links_changelog_summary">查看最新更新日志</string>
     <string name="links_donation_title">捐赠</string>
     <string name="links_donation_summary">给开发者捐赠一杯可乐？</string>
 </resources>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixelgsi.ota.dialogs;
+package com.phhgsi.ota.dialogs;
 
 import android.app.Activity;
 import android.app.Fragment;

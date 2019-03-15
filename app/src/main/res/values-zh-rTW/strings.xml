@@ -19,7 +19,7 @@
 
     <!-- App -->
     <string name="app_name">系統更新</string>
-    <string name="app_title">PixelExperience 更新</string>
+    <string name="app_title">蜗牛定制系统更新</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>

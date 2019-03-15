@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package com.pixelgsi.ota;
+package com.phhgsi.ota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.pixelgsi.ota.configs.LinkConfig;
-import com.pixelgsi.ota.dialogs.WaitDialogFragment;
-import com.pixelgsi.ota.fragments.PixelgsiOTAFragment;
+import com.phhgsi.ota.configs.LinkConfig;
+import com.phhgsi.ota.dialogs.WaitDialogFragment;
+import com.phhgsi.ota.fragments.PhhgsiOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {
 
-    private static final String FRAGMENT_TAG = PixelgsiOTAFragment.class.getName();
-    private PixelgsiOTAFragment mFragment;
+    private static final String FRAGMENT_TAG = PhhgsiOTAFragment.class.getName();
+    private PhhgsiOTAFragment mFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mFragment = (PixelgsiOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
+        mFragment = (PhhgsiOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
         if (mFragment == null) {
             getFragmentManager().beginTransaction()
-                    .replace(android.R.id.content, new PixelgsiOTAFragment(), FRAGMENT_TAG)
+                    .replace(android.R.id.content, new PhhgsiOTAFragment(), FRAGMENT_TAG)
                     .commit();
         }
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixelgsi.ota.configs;
+package com.phhgsi.ota.configs;
 
 import android.app.AlarmManager;
 import android.app.job.JobInfo;
@@ -24,9 +24,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.pixelgsi.ota.R;
-import com.pixelgsi.ota.tasks.OTAService;
-import com.pixelgsi.ota.utils.OTAUtils;
+import com.phhgsi.ota.R;
+import com.phhgsi.ota.tasks.OTAService;
+import com.phhgsi.ota.utils.OTAUtils;
 
 import java.text.DateFormat;
 import java.util.Date;

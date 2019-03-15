@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 $(shell cp -u device/phh/treble/ota/ota_conf $(LOCAL_PATH)/app/src/main/assets/)
 
 LOCAL_MODULE_TAGS := optional
-LOCAL_PACKAGE_NAME := PixelgsiOTA
+LOCAL_PACKAGE_NAME := PhhgsiOTA
 LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true

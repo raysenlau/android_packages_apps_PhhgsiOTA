@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixelgsi.ota.utils;
+package com.phhgsi.ota.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,8 +23,8 @@ import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.pixelgsi.ota.configs.OTAConfig;
-import com.pixelgsi.ota.R;
+import com.phhgsi.ota.configs.OTAConfig;
+import com.phhgsi.ota.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -38,7 +38,7 @@ import java.util.Properties;
 
 public final class OTAUtils {
 
-    private static final String TAG = "PixelgsiOTA";
+    private static final String TAG = "PhhgsiOTA";
     private static final boolean DEBUG = true;
 
     private OTAUtils() {

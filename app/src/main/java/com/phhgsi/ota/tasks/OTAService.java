@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.pixelgsi.ota.tasks;
+package com.phhgsi.ota.tasks;
 
 import android.app.job.JobParameters;
 import android.app.job.JobService;
 import android.os.AsyncTask;
 
-import com.pixelgsi.ota.tasks.CheckUpdateTask;
-import com.pixelgsi.ota.utils.OTAUtils;
+import com.phhgsi.ota.tasks.CheckUpdateTask;
+import com.phhgsi.ota.utils.OTAUtils;
 
 public class OTAService extends JobService {
 

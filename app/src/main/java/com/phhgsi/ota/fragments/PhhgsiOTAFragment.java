@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixelgsi.ota.fragments;
+package com.phhgsi.ota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,18 +25,18 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.pixelgsi.ota.R;
-import com.pixelgsi.ota.configs.AppConfig;
-import com.pixelgsi.ota.configs.LinkConfig;
-import com.pixelgsi.ota.configs.OTAVersion;
-import com.pixelgsi.ota.dialogs.WaitDialogFragment;
-import com.pixelgsi.ota.tasks.CheckUpdateTask;
-import com.pixelgsi.ota.utils.OTAUtils;
-import com.pixelgsi.ota.xml.OTALink;
+import com.phhgsi.ota.R;
+import com.phhgsi.ota.configs.AppConfig;
+import com.phhgsi.ota.configs.LinkConfig;
+import com.phhgsi.ota.configs.OTAVersion;
+import com.phhgsi.ota.dialogs.WaitDialogFragment;
+import com.phhgsi.ota.tasks.CheckUpdateTask;
+import com.phhgsi.ota.utils.OTAUtils;
+import com.phhgsi.ota.xml.OTALink;
 
 import java.util.List;
 
-public class PixelgsiOTAFragment extends PreferenceFragment implements
+public class PhhgsiOTAFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener,
         SharedPreferences.OnSharedPreferenceChangeListener ,
         WaitDialogFragment.OTADialogListener,
@@ -59,7 +59,7 @@ public class PixelgsiOTAFragment extends PreferenceFragment implements
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
 
-        addPreferencesFromResource(R.xml.pixelgsi_ota);
+        addPreferencesFromResource(R.xml.phhgsi_ota);
 
         mRomInfo = (PreferenceScreen) getPreferenceScreen().findPreference(KEY_ROM_INFO);
         mCheckUpdate = (PreferenceScreen) getPreferenceScreen().findPreference(KEY_CHECK_UPDATE);

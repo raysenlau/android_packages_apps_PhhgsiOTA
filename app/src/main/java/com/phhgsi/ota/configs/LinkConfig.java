@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.pixelgsi.ota.configs;
+package com.phhgsi.ota.configs;
 
 import android.content.Context;
 
-import com.pixelgsi.ota.xml.OTALink;
-import com.pixelgsi.ota.xml.OTAParser;
-import com.pixelgsi.ota.utils.OTAUtils;
+import com.phhgsi.ota.xml.OTALink;
+import com.phhgsi.ota.xml.OTAParser;
+import com.phhgsi.ota.utils.OTAUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

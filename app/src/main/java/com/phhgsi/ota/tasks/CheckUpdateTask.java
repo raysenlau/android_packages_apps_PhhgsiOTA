@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixelgsi.ota.tasks;
+package com.phhgsi.ota.tasks;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -30,16 +30,16 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.NotificationCompat;
 
-import com.pixelgsi.ota.MainActivity;
-import com.pixelgsi.ota.R;
-import com.pixelgsi.ota.configs.AppConfig;
-import com.pixelgsi.ota.configs.LinkConfig;
-import com.pixelgsi.ota.configs.OTAConfig;
-import com.pixelgsi.ota.configs.OTAVersion;
-import com.pixelgsi.ota.dialogs.WaitDialogHandler;
-import com.pixelgsi.ota.utils.OTAUtils;
-import com.pixelgsi.ota.xml.OTADevice;
-import com.pixelgsi.ota.xml.OTAParser;
+import com.phhgsi.ota.MainActivity;
+import com.phhgsi.ota.R;
+import com.phhgsi.ota.configs.AppConfig;
+import com.phhgsi.ota.configs.LinkConfig;
+import com.phhgsi.ota.configs.OTAConfig;
+import com.phhgsi.ota.configs.OTAVersion;
+import com.phhgsi.ota.dialogs.WaitDialogHandler;
+import com.phhgsi.ota.utils.OTAUtils;
+import com.phhgsi.ota.xml.OTADevice;
+import com.phhgsi.ota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -158,16 +158,16 @@ public class CheckUpdateTask extends AsyncTask<Context, Void, OTADevice> {
             NotificationManager notificationManager =
                     (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             int notifyID = 1;
-            String id = "pixelgsiota_channel";
-            CharSequence name = context.getString(R.string.pixelgsi_channel);
-            String description = context.getString(R.string.pixelgsi_channel_description);
+            String id = "phhgsiota_channel";
+            CharSequence name = context.getString(R.string.phhgsi_channel);
+            String description = context.getString(R.string.phhgsi_channel_description);
             int importance = NotificationManager.IMPORTANCE_LOW;
             NotificationChannel mChannel = new NotificationChannel(id, name, importance);
             mChannel.setDescription(description);
             notificationManager.createNotificationChannel(mChannel);
 
             NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext())
-                    .setSmallIcon(R.drawable.ic_notification_pixelgsi)
+                    .setSmallIcon(R.drawable.ic_notification_phhgsi)
                     .setContentTitle(context.getString(R.string.notification_title))
                     .setContentText(context.getString(R.string.notification_message))
                     .setOnlyAlertOnce(true)

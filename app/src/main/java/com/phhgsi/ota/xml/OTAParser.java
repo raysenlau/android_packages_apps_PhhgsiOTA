@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixelgsi.ota.xml;
+package com.phhgsi.ota.xml;
 
 import android.util.Xml;
 

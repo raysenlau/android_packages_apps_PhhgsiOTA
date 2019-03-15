@@ -50,8 +50,8 @@
     <!-- Notification -->
     <string name="notification_title">Hey, a new update is here!</string>
     <string name="notification_message">A new version is available!</string>
-    <string name="pixelgsi_channel">PixelExperience OTA notifications</string>
-    <string name="pixelgsi_channel_description">Notifications about new PixelExperience ROM updates</string>
+    <string name="phhgsi_channel">System OTA notifications</string>
+    <string name="phhgsi_channel_description">Notifications about new System ROM updates</string>
 
     <!-- Dialog -->
     <string name="dialog_message">Checking for ROM updates, please wait…</string>

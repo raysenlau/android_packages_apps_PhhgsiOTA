@@ -50,8 +50,8 @@
     <!-- Notification -->
     <string name="notification_title">系统更新</string>
     <string name="notification_message">有新版本可用！</string>
-    <string name="pixelgsi_channel">系统OTA通知</string>
-    <string name="pixelgsi_channel_description">有系统更新时的通知我</string>
+    <string name="phhgsi_channel">系统OTA通知</string>
+    <string name="phhgsi_channel_description">有系统更新时的通知我</string>
 
     <!-- Dialog -->
     <string name="dialog_message">正在检查系统更新，请稍候…</string>
